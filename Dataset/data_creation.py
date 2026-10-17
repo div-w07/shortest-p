@@ -442,3 +442,6 @@ mapp["S304"]={"J314":10,"S204":20}
 mapp["S305"]={"J317":5,"S205":20}
 mapp["S306"]={"J321":5,"S206":20}
 mapp["S307"]={"J327":30,"J328":40,"S207":20}
+
+with open("Map.json", "w") as f:
+    json.dump(mapp,f,indent=4)
