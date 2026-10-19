@@ -38,7 +38,8 @@ def djikstra(mapp,start,end):
     while node!=start:
         print(node,end="<-")
         node=prev[node]
+    print(start)
     print(f"\nTotal Distance: {dist[end]} units")
     print("================================================================================\n================================================================================")
     
-#djikstra(mapp,"A003","B318")
+djikstra(mapp,"A003","B318")
