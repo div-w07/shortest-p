@@ -1,6 +1,6 @@
-# shortest-p --- Shortest Path Finder
+# shortest-path-c25 --- Shortest Path Finder
 
-Apostasi is a graph-based shortest-path finder for navigating a
+ shortest-path-c25 is a graph-based shortest-path finder for navigating a
 building. It represents locations and connections between them as a
 weighted graph and uses Dijkstra's algorithm to find a minimum-weight
 route between a specified start and destination.
@@ -8,7 +8,7 @@ route between a specified start and destination.
 ## Project Structure
 
 ``` text
-shortest-p-shortest-path-finder/
+ shortest-path-c25-shortest-path-finder/
 ├── Dataset/
 │   └── data_creation.py
 ├── djikstra_module/
