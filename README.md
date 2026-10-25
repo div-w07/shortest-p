@@ -1,4 +1,4 @@
-# Apostasi --- Shortest Path Finder
+# shortest-p --- Shortest Path Finder
 
 Apostasi is a graph-based shortest-path finder for navigating a
 building. It represents locations and connections between them as a
@@ -8,7 +8,7 @@ route between a specified start and destination.
 ## Project Structure
 
 ``` text
-apostasi-shortest-path-finder/
+shortest-p-shortest-path-finder/
 ├── Dataset/
 │   └── data_creation.py
 ├── djikstra_module/
